@@ -10,6 +10,7 @@
   margin: 0 auto;
   display: block;
   text-align: right;
+  font-size: 0;
 }
 
 .jumbotron .jumbotron-img {
@@ -18,6 +19,7 @@
 
 .jumbotron .more-inf {
   font-family: fantasy, cursive;
+  font-size: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -83,6 +85,7 @@ button {
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  box-sizing: border-box;
 }
 
 .input:focus {
@@ -101,6 +104,10 @@ button {
 }
 
 /* New Task */
+.new-task__label-wrapper {
+  margin: 1em 0;
+}
+
 .new-task__label {
   display: block;
   margin: 0 0 20px;
@@ -140,8 +147,12 @@ button {
   width: 226px;
 }
 
+.task-list__delete {
+  font-size: 0;
+}
+
 .task-list__delete-img {
-  height: 2em;
+  height: 30px;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
