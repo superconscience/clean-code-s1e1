@@ -21,9 +21,11 @@
 }
 
 @media (max-width: 768px) {
+
   .jumbotron {
     text-align: center;
   }
+
 }
 
 .container {
