@@ -12,7 +12,7 @@
   text-align: right;
 }
 
-.jumbotron img {
+.jumbotron .jumbotron-img {
   width: 100%;
 }
 
@@ -125,7 +125,7 @@ input, button {
   vertical-align: middle;
 }
 
-.task-list-item > input[type="checkbox"] {
+.task-list-item-checkbox {
   margin: 0 10px;
 }
 
@@ -140,13 +140,13 @@ input, button {
   width: 226px;
 }
 
-.btn.delete img {
+.btn.delete .delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete img:hover {
+.btn.delete .delete-img:hover {
   transform: rotateZ(0);
 }
 
